@@ -69,7 +69,16 @@ Este comando ejecutará las migraciones y luego cargará los datos de prueba
 preconfigurados en los seeders, lo que te permitirá tener empresas y empleados
 de ejemplo para interactuar con la aplicación.
 
-### 6. Instalar dependencias de frontend
+### 6. Crear el enlace al directorio storage
+
+Para generar en enlace a la carpeta de almacenamiento publica debemos ejecutar
+el siguiente comando:
+
+```bash
+php artisan storage:link
+```
+
+### 7. Instalar dependencias de frontend
 
 Para compilar los archivos de frontend (CSS y JS), ejecuta:
 
@@ -79,11 +88,12 @@ npm run dev
 ```
 
 Para compilar los archivos de frontend para producción, ejecutar:
+
 ```bash
 npm run build
 ```
 
-### 7. Servir la aplicación
+### 8. Servir la aplicación
 
 Para ejecutar el servidor de desarrollo de Laravel, usa el siguiente comando:
 
