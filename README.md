@@ -78,6 +78,11 @@ npm install
 npm run dev
 ```
 
+Para compilar los archivos de frontend para producción, ejecutar:
+```bash
+npm run build
+```
+
 ### 7. Servir la aplicación
 
 Para ejecutar el servidor de desarrollo de Laravel, usa el siguiente comando:
